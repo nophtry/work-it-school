@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<link rel="stylesheet" href="css/style.css">
+<title> Регистрация  </title>
+</head>
+<body>
+
+<div class="container">
+<div class="title"id="title">Registration</div>
+<div class="content">
+<div class="user-details">
+<div class="input-box">
+<span class="details">Name</span>
+<input type="text" placeholder="Enter your name" required>
+</div>
+<div class="input-box">
+<span class="details">Nickname</span>
+<input type="text" placeholder="Enter your username" required>
+</div>
+<div class="input-box">
+<span class="details">Email</span>
+<input type="email" placeholder="Enter your email" required>
+</div>
+<div class="input-box">
+<span class="details">Phone number</span>
+<input type="phone_number" placeholder="Enter your number" required>
+</div>
+<div class="input-box">
+<span class="details">Password</span>
+<input type="password" placeholder="enter password" 
+pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*(),.?\:{}|>]).{8,}" 
+title="Пароль повинен містити принаймні одну велику і малу літеру, цифру та спеціальний символ. Довжина пароля повинна бути не менше 8 символів." required>
+</div>
+<div class="input-box">
+<span class="details">Confirm password</span>
+<input type="password" placeholder="enter confirm password" required>
+</div>
+</div>
+<br>
+<button id="regbutton">Registration</button>
+</div>
+</div>
+
+
+</body>
+</html>

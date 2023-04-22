@@ -1,0 +1,124 @@
+body {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Black-Wallpaper-HD-1920x1080-Free-Download.jpg);
+      90deg,
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    font-size: 25px;
+    max-width: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(135, 206, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .title { 
+  color: white ;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(118,118,120,1) 0%, rgba(36,36,143,1) 35%, rgba(33,170,198,1) 100%)
+}
+ 
+  }
+  
+  
+
+
+   
+
+}
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .user-details .input-box {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .user-details .input-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  
+  .user-details .input-box input:invalid {
+    border-color: blue;
+  }
+  
+  .user-details .input-box input:valid {
+    border-color: green;
+  }
+  
+  #regbutton {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(
+      90deg,
+      rgba(95, 158, 160 ) 40%,
+      rgba(135, 206, 235) 100%
+    ) red;
+  }
+  
+  #regbutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+footer a {
+color:aqua
+}
